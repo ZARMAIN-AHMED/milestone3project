@@ -17,7 +17,7 @@ export default function Product() {
 
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5  h-screen p-12 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5  h-full p-12  mb-96">
         {products.map((val: any, i: any) => {
           return (
             <Link href={`/component/product/${val.id}`}>
